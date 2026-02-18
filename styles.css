@@ -2,8 +2,26 @@
     box-sizing: border-box;
 }
 
+.header {
+    height: 150px;
+}
+
 body {
     background-image: url(https://static.wikia.nocookie.net/onepiece/images/b/b5/Site-background-light/revision/latest?cb=20211209210547);
     /* background-repeat: no-repeat; */
     background-size: 150px 150px;
+}
+
+.box {
+    background-color:  #faebd7;
+    padding: 50px;
+    margin: 50px;
+    display: block;
+}
+
+.recipe {
+    display: inline;
+    /* background-color: black; */
+    /* align-items: center; */
+    margin: 0px 10px;
 }
